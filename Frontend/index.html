@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>📚 Library Management System</h1>
+
+<!-- DASHBOARD -->
+<div class="stats">
+  <div class="stat">Total Books<br><span id="totalBooks">0</span></div>
+  <div class="stat">Issued Books<br><span id="issuedBooks">0</span></div>
+</div>
+
+<!-- ADD BOOK -->
+<div class="card">
+  <h2>Add Book</h2>
+  <input id="name" placeholder="Book Name">
+  <input id="author" placeholder="Author">
+  <input id="qty" type="number" placeholder="Quantity">
+  <button onclick="addBook()">Add Book</button>
+</div>
+
+<!-- SEARCH -->
+<div class="card">
+  <input placeholder="Search book..." onkeyup="searchBook(this.value)">
+</div>
+
+<!-- BOOK TABLE -->
+<div class="card">
+  <h2>Books List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Qty</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="bookTable"></tbody>
+  </table>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
