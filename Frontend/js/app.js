@@ -1,4 +1,4 @@
-const API = "https://library-management-production-68ed.up.railway.app/books";
+const API = "https://library-management-production-68ed.up.railway.app";
 
 /* ---------------- ADD BOOK ---------------- */
 function addBook() {
