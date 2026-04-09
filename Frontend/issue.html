@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Issue Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>📤 Issue Book</h1>
+<div class="app-container">
+  <header class="app-header">
+    <h1>📤 Issue Book</h1>
+  </header>
 
-<div class="card">
-  <input id="student" placeholder="Student Name">
-  <input id="book" placeholder="Book Name">
-  <input type="date" id="returnDate">
-  <button onclick="issueBook()">Issue Book</button>
+  <div class="main-grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto;">
+    <div class="card shadow">
+      <h2>Issue a Book to a Student</h2>
+      <div class="form-group flex-col">
+        <input id="student" placeholder="Student Name">
+        <input id="book" placeholder="Book Name">
+        <input type="date" id="returnDate">
+        <button class="btn-primary" onclick="issueBook()" style="margin-top: 10px;">Issue Book</button>
+      </div>
+      <div style="margin-top: 20px; text-align: center;">
+        <a href="index.html" style="color: #4f46e5; text-decoration: none; font-weight: 500;">← Back to Dashboard</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script src="js/app.js"></script>

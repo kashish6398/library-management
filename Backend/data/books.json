@@ -1,7 +1,12 @@
 [
   {
     "name": "maths",
-    "author": "michal",
-    "qty": "3"
+    "author": "rk aggarwal",
+    "qty": "2"
+  },
+  {
+    "name": "sst",
+    "author": "ncert",
+    "qty": "1"
   }
 ]
