@@ -3,12 +3,6 @@
 
 A full-stack web application to manage books using a REST API and a responsive frontend interface.
 
-🚀 Live Demo
-
-Frontend: [[https://your-vercel-link.vercel.app](https://library-management-three-pi.vercel.app/)](https://library-management-three-pi.vercel.app/)
-
-Backend API: [https://your-railway-link.up.railway.app/books](https://railway.com/project/571a47da-48a2-4efe-ba07-d3ea97320b46/service/6679875b-7c62-4b47-8b8c-73937617563a?environmentId=ce973b2b-0a57-40a8-b1a6-018a907bb0d7)
-
 🛠 Tech Stack
 
 Frontend:
